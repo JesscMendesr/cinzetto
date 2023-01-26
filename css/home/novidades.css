@@ -1,0 +1,15 @@
+.novidades-bg {
+  background-color: var(--cor-p1);
+}
+
+.novidades-bg h1 {
+  display: block;
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.novidades-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
