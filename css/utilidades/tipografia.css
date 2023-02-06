@@ -16,3 +16,7 @@
 .font-p {
   font: 400 1.5rem/1.5 "Open Sans", sans-serif;
 }
+
+.novidades-container img {
+  min-width: 600px;
+}

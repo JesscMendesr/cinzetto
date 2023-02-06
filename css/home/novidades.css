@@ -9,7 +9,12 @@
   padding-bottom: 96px;
 }
 
+.novidades-container img {
+  max-width: 100%;
+}
+
 .novidades-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  gap: 0px 60px;
+  overflow-x: auto;
 }
