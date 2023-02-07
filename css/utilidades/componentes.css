@@ -29,3 +29,7 @@
   left: 4px;
   top: 90%;
 }
+
+.button:hover:after {
+  background-color: var(--cor-p2);
+}
