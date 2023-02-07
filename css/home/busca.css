@@ -14,13 +14,15 @@
 }
 
 .busca input {
+  display: flex;
   border-radius: 50px;
   border: 1px solid var(--cor-p4);
   height: 24px;
   background-color: var(--cor-p4);
   padding-left: 10px;
-  margin-top: 20px;
-  width: 360px;
+  margin: 0 20px;
+  width: 100%;
+  max-width: 360px;
 }
 
 input:focus {

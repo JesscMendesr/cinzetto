@@ -1,3 +1,9 @@
+* {
+  scroll-behavior: smooth;
+  scrollbar-color: auto;
+  scrollbar-color: black;
+}
+
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;

@@ -15,20 +15,32 @@
 } */
 
 .novidades-container {
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  grid-auto-flow: column;
   max-width: 100%;
   padding: 0 20px 20px 20px;
-  overflow-x: auto;
+  /* overflow-x: auto; */
   gap: 0px 100px;
   padding-bottom: 96px;
+  scroll-behavior: auto;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
 }
 
+/* .novidades-container::-webkit-scrollbar {
+  display: none;
+} */
 .novidades-container li {
   min-width: 400px;
 }
 
 .novidades-container img {
+  scroll-snap-align: start;
   width: 100%;
+
   object-fit: cover;
   padding-bottom: 10px;
 }
