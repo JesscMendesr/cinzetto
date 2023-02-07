@@ -1,0 +1,29 @@
+.busca {
+  background-color: var(--cor-p3);
+  height: 400px;
+  padding: 200px 0;
+}
+
+.busca label {
+  display: block;
+}
+
+.busca form {
+  margin: 0 auto;
+  max-width: 1160px;
+}
+
+.busca input {
+  border-radius: 50px;
+  border: 1px solid var(--cor-p4);
+  height: 24px;
+  background-color: var(--cor-p4);
+  padding-left: 10px;
+  margin-top: 20px;
+  width: 360px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid var(--cor-p2);
+}
