@@ -19,7 +19,8 @@
   max-width: 100%;
   padding: 0 20px 20px 20px;
   overflow-x: auto;
-  gap: 0px 60px;
+  gap: 0px 100px;
+  padding-bottom: 96px;
 }
 
 .novidades-container li {
@@ -32,9 +33,6 @@
   padding-bottom: 10px;
 }
 
-.novidades-container span {
-}
-
 .novidades-container div {
   display: flex;
   justify-content: space-between;
@@ -43,4 +41,8 @@
 .novidades-container div p,
 .novidades-container div span {
   padding: 6px 4px;
+}
+
+.button:hover {
+  color: var(--cor-p2);
 }
