@@ -5,7 +5,7 @@
 }
 
 .busca label {
-  display: block;
+  display: block !important;
 }
 
 .busca form {
@@ -13,8 +13,11 @@
   max-width: 1160px;
 }
 
-.busca input {
+.busca div {
   display: flex;
+}
+
+.busca input {
   border-radius: 50px;
   border: 1px solid var(--cor-p4);
   height: 24px;

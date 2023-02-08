@@ -33,6 +33,7 @@
 /* .novidades-container::-webkit-scrollbar {
   display: none;
 } */
+
 .novidades-container li {
   min-width: 400px;
 }
