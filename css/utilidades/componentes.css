@@ -7,8 +7,17 @@
   margin-right: auto;
 }
 
+.container-pequeno {
+  box-sizing: border-box;
+  max-width: 960px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .button {
-  display: block;
+  display: inline;
   font-family: "Manrope";
   font-size: 1em;
   font-weight: 600;
@@ -18,6 +27,10 @@
   position: relative;
   padding: 6px 4px;
   box-sizing: content-box;
+}
+
+.button.secundario {
+  font-size: 24px;
 }
 
 .button::after {
